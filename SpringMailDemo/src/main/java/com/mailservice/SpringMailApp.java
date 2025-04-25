@@ -22,7 +22,7 @@ public class SpringMailApp {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("smtp.gmail.com");
         mailSender.setUsername("ruqsana123begum@gmail.com");
-        mailSender.setPassword("zcxb igmi lxui wips");
+        mailSender.setPassword("password generated in gmail");
         mailSender.setPort(587);
 
         Properties properties = new Properties();
